@@ -1,7 +1,7 @@
 import React from "react";
 
 //mui
-import { Grid, Box, Typography, Button, TextField } from "@material-ui/core";
+import { Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 //images
 import FacebookIcon from "../assets/images/facebook.png";

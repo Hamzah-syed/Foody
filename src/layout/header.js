@@ -3,7 +3,7 @@ import React, { useState } from "react";
 //css
 import "../assets/css/main.css";
 //Mui
-import { Grid, Box, Typography, Link, Button, Hidden } from "@material-ui/core";
+import { Grid, Box, Button, Hidden } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
 import ClearIcon from "@material-ui/icons/Clear";
@@ -107,7 +107,7 @@ const Header = () => {
           className={classes.Nav}
         >
           <Box p={1}>
-            <img src={Logo} className={classes.Logo} />
+            <img src={Logo} className={classes.Logo} alt="logo" />
           </Box>
           <Box>
             <Hidden mdUp>
@@ -124,7 +124,9 @@ const Header = () => {
               )}
             </Hidden>
             <Box px={2} className={classes.LinksParent} ref={navHumanum}>
-              <a className={classes.LinksStyling}>Home</a>
+              <a className={classes.LinksStyling} href="#">
+                Home
+              </a>
               <a href="#servicesSec" className={classes.LinksStyling}>
                 Services
               </a>

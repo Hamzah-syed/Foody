@@ -1,6 +1,6 @@
 import React from "react";
 //mui
-import { Grid, Box, Typography, Link, Button, Hidden } from "@material-ui/core";
+import { Grid, Box, Typography, Button, Hidden } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 //image
@@ -8,7 +8,6 @@ import LandingMobile from "../../assets/images/Landingmobile.png";
 // import MobileLayout from "../../assets/images/mobileLayout.png";
 //animation
 import useWebAnimations, {
-  fadeInLeft,
   fadeInRight,
   fadeInDown,
 } from "@wellyshen/use-web-animations";
